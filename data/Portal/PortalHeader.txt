@@ -1,0 +1,11 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1418982003" format="1.1" reprev="7" version="9"}%
+<div style="width:100%; height: auto;">
+  <div style="width:auto; margin: 0 auto; font-size: 1.6em;">[[Processes.WebHome][%MAKETEXT{"Process landscape"}%]] · [[InternalProjects.WebHome][%MAKETEXT{"Internal projects"}%]] · [[KPI/WebHome][KPI]] · [[Minutes.WebHome][%MAKETEXT{"Minutes"}%]] · [[Audit.WebHome][%MAKETEXT{"Audits"}%]]</div>
+  <br />
+  <div style="width: auto; margin: 0 auto;">[[Manuals.WebHome][%MAKETEXT{"New to Q.Wiki - Please follow this link!"}%]]</div>
+</div>
+
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

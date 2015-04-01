@@ -1,0 +1,142 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.6
+date	2014.03.31.12.15.39;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.03.21.14.45.01;	author SvenjaGeisen;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.03.21.13.10.10;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.03.21.12.23.51;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.03.21.11.22.05;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.21.09.22.02;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+1.6
+log
+@save topic@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1396268139" format="1.1" reprev="5" version="6"}%
+
+
+%META:FORM{name="PortalForm"}%
+%META:FIELD{name="TopicTitle" attributes="" title="TopicTitle" value="Portal"}%
+%META:FIELD{name="PortalLeftFirst" attributes="" title="PortalLeftFirst" value="PortalMessages"}%
+%META:FIELD{name="PortalLeftSecond" attributes="" title="PortalLeftSecond" value="PortalEmpty"}%
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalChanges"}%
+%META:FIELD{name="PortalRightSecond" attributes="" title="PortalRightSecond" value="PortalDates"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="PortalView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="PortalEdit"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup, SvenjaGeisen"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup, SvenjaGeisen"}%
+@
+
+
+1.5
+log
+@reprev@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="SvenjaGeisen" comment="reprev" date="1395413101" format="1.1" reprev="5" version="5"}%
+d8 1
+a8 1
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalTasks"}%
+@
+
+
+1.4
+log
+@save topic@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395407410" format="1.1" reprev="2" version="4"}%
+d8 1
+a8 1
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalChanges"}%
+@
+
+
+1.3
+log
+@save topic@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395404631" format="1.1" reprev="2" version="3"}%
+d12 2
+a13 2
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+@
+
+
+1.2
+log
+@reprev@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395400925" format="1.1" reprev="2" version="2"}%
+d8 1
+a8 1
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalTasks"}%
+@
+
+
+1.1
+log
+@reprev@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395393722" format="1.1" reprev="1" version="1"}%
+d8 1
+a8 1
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalChanges"}%
+@

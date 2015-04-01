@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1395392095" format="1.1" reprev="3" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| Dokumententyp | select | 1 | Infoseite, Prozessbeschreibung, Arbeitsanweisung, Checkliste | Bitte wÃ¤hlen Sie den Artikel-Typ aus | |
+| Titel | text | 50 | | Bitte geben Sie einen eindeutigen Artikelnamen an | m |
+| Prozesseigner | text | | | Prozesseigner | |
+| Nummer | text | | | Eindeutige Nummer nach dem Standard | |
+| Revision | text | | | Revisionsnummer | |
+| Autor | text | | | Autor | |
+| Geltungsbereich | text | | | GÃ¼ltigkeitsbereich | |
+| Freigabedatum | text | | | Datum | |
+| Normkapitel | text | | | Zugeordnetes Normkapitel | |

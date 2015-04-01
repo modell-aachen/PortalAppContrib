@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2014.03.21.09.12.54;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+@
+
+
+1.1
+log
+@save topic@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" date="1395393174" format="1.1" version="1"}%
+<div class="widgetBlockTitle"> All Messages <span style="float:right; overflow: hidden;"><a href='%SCRIPTURL{view}%/bin/edit/%WEB%/MessageAUTOINC0000?templatetopic=%WEB%.MessageTemplate;DocumentType=Message' title='Create new message'><img width='24' height='24' src='%PUBURLPATH%/Start/WebPreferences/add.png' border='0' /></a></span></div>
+<div class="widgetBlockContent">
+%SOLRSEARCH{"topic: Message0* web: %WEB% field_DocumentType_s: \"Message\""
+format="<span style='text-color: grey;font-size:1.4em;'>$field_Date_dt</span>&nbsp;<b>$field_TopicTitle_s</b>&nbsp;$author [[%SCRIPTURL{edit}%/$webtopic][Edit]]%BR%$percentINCLUDE{$topic}$percent%BR%"
+separator="$n---$n"
+sort="field_Date_dt desc"
+rows="500"
+}%
+</div>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+@

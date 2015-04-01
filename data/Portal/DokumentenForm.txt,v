@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2014.03.21.08.54.55;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+@
+
+
+1.1
+log
+@save topic@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" date="1395392095" format="1.1" reprev="3" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| Dokumententyp | select | 1 | Infoseite, Prozessbeschreibung, Arbeitsanweisung, Checkliste | Bitte wÃ¤hlen Sie den Artikel-Typ aus | |
+| Titel | text | 50 | | Bitte geben Sie einen eindeutigen Artikelnamen an | m |
+| Prozesseigner | text | | | Prozesseigner | |
+| Nummer | text | | | Eindeutige Nummer nach dem Standard | |
+| Revision | text | | | Revisionsnummer | |
+| Autor | text | | | Autor | |
+| Geltungsbereich | text | | | GÃ¼ltigkeitsbereich | |
+| Freigabedatum | text | | | Datum | |
+| Normkapitel | text | | | Zugeordnetes Normkapitel | |@

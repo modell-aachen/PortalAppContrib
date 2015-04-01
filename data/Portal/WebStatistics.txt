@@ -1,0 +1,10 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1399345504" format="1.1" version="8"}%
+%META:TOPICPARENT{name="WebHome"}%
+%IF{
+"istopic '%USERSWEB%.Default%TOPIC%'"
+then="$percentINCLUDE{$quot%USERSWEB%.Default%TOPIC%$quot}$percent"
+else="$percentINCLUDE{$quot%SYSTEMWEB%.Default%TOPIC%$quot}$percent"
+}%
+| <!--statDate--> | <!--statViews--> | <!--statSaves--> | <!--statUploads--> | <!--statTopViews--> | <!--statTopContributors--> |
+| May 2014 |  73 |  10 |  2 | &nbsp;27 [[WebHome]]<br />&nbsp;15 [[PortalHeader]]<br />&nbsp;10 [[Message00000]]<br />&nbsp;&nbsp;6 [[Message00001]]<br />&nbsp;&nbsp;4 [[WebTopicList]]<br />&nbsp;&nbsp;3 [[WebPreferences]]<br />&nbsp;&nbsp;2 [[PortalMessagesArchiv]]<br />&nbsp;&nbsp;2 [[MessageAUTOINC00000]]<br />&nbsp;&nbsp;2 [[PortalMessages]]<br />&nbsp;&nbsp;1 [[PortalDates]]<br />&nbsp;&nbsp;1 [[PortalForm]] | &nbsp;&nbsp;8 Main.AdminUser<br />&nbsp;&nbsp;4 Main.MaikGlatki |
+| Apr 2014 |  19 |  2 |  0 | &nbsp;13 [[WebHome]]<br />&nbsp;&nbsp;4 [[WebPreferences]]<br />&nbsp;&nbsp;1 [[Message00000]]<br />&nbsp;&nbsp;1 [[PortalMessagesArchiv]] | &nbsp;&nbsp;2 Main.AdminUser |
