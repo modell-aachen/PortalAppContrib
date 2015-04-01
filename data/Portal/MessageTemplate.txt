@@ -1,0 +1,8 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1395392219" format="1.1" version="1"}%
+
+_
+
+%META:FORM{name="MessageForm"}%
+%META:FIELD{name="DocumentType" attributes="" title="DocumentType" value="Message"}%
+%META:FIELD{name="TopicTitle" attributes="" title="TopicTitle" value=""}%
+%META:FIELD{name="Date" attributes="" title="Date" value=""}%

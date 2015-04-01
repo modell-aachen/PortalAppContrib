@@ -1,0 +1,13 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1396268139" format="1.1" reprev="5" version="6"}%
+
+
+%META:FORM{name="PortalForm"}%
+%META:FIELD{name="TopicTitle" attributes="" title="TopicTitle" value="Portal"}%
+%META:FIELD{name="PortalLeftFirst" attributes="" title="PortalLeftFirst" value="PortalMessages"}%
+%META:FIELD{name="PortalLeftSecond" attributes="" title="PortalLeftSecond" value="PortalEmpty"}%
+%META:FIELD{name="PortalRightFirst" attributes="" title="PortalRightFirst" value="PortalChanges"}%
+%META:FIELD{name="PortalRightSecond" attributes="" title="PortalRightSecond" value="PortalDates"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="PortalView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="PortalEdit"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup, SvenjaGeisen"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup, SvenjaGeisen"}%

@@ -1,0 +1,66 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.2
+date	2014.03.21.10.58.46;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.21.09.11.57;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+
+
+
+
+@
+
+
+1.2
+log
+@reprev@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395399526" format="1.1" reprev="2" version="2"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Latest News"}%<span style="float:right; overflow: hidden;">
+<a href="/bin/edit/%WEB%/MessageAUTOINC00000?templatetopic=MessageTemplate">
+               <img width='24' height='24' src='%PUBURLPATH%/Portal/WebPreferences/add.png' border='0' />
+</a> 
+<a href='%SCRIPTURL{view}%/%WEB%/PortalMessagesArchiv' title='Archiv'>
+               <img width='24' height='24' src='%PUBURLPATH%/Portal/WebPreferences/archive.png' border='0' />
+</a></span></div>
+<div class="widgetBlockContent" style="overflow: auto; height: 540px;">
+%SOLRSEARCH{"topic: Message0*  web: %SUBST{text="%WEB%" pattern="/" format="."}% field_DocumentType_s: \"Message\""
+format="<span style='text-color: #ccc; font-size:1.4em;'>$field_Date_dt</span>&nbsp;--&nbsp;<b>$field_TopicTitle_s</b>&nbsp;by&nbsp;$author <a href='$percentSCRIPTURL{view}$percent/bin/edit/$webtopic?t=%GMTIME{"$epoch"}%'>(edit)</a><br /><br />$percentINCLUDE{$topic}$percent<br /><br /><br />"
+separator="$n---$n"
+sort="field_date_dt desc"
+rows="5"
+}%
+</div>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+@
+
+
+1.1
+log
+@save topic@
+text
+@d1 1
+a1 1
+%META:TOPICINFO{author="BaseUserMapping_333" date="1395393117" format="1.1" version="1"}%
+d11 1
+a11 1
+format="<span style='text-color: #ccc; font-size:1.4em;'>$field_Date_dt</span>&nbsp;<b>$field_TopicTitle_s</b>&nbsp;by&nbsp;$author <a href='$percentSCRIPTURL{view}$percent/bin/edit/$webtopic?t=%GMTIME{"$epoch"}%'>(edit)</a><br />$percentINCLUDE{$topic}$percent"
+@

@@ -1,0 +1,54 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2014.03.21.09.18.09;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+@
+
+
+1.1
+log
+@save topic@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" date="1395393489" format="1.1" version="1"}%
+%TMPL:INCLUDE{view}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+
+<div class="widgetBlockTitle" style="text-align: center;">
+Welcome to Q.Wiki
+</div>
+<div class="widgetBlockContent" style="text-align: center;">
+%INCLUDE{"PortalHeader"}%
+</div>
+
+<div id="PortalLeft" style="float: left; width: 48%; height: 600px;">
+%INCLUDE{"%QUERY{"PortalLeftFirst"}%"}%
+%INCLUDE{"%QUERY{"PortalLeftSecond"}%"}%
+</div>
+<div id="PortalRight" style="float: right; width: 48%; height: 600px;">
+%INCLUDE{"%QUERY{"PortalRightFirst"}%"}%
+%INCLUDE{"%QUERY{"PortalRightSecond"}%"}%
+</div>
+%TMPL:END%
+
+
+
+
+
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+@

@@ -1,0 +1,43 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2014.03.21.09.01.46;	author BaseUserMapping_333;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+@
+
+
+1.1
+log
+@save topic@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" date="1395392506" format="1.1" version="1"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Next Dates"}%<span style="float:right; overflow: hidden;">
+<a href="/bin/edit/%WEB%/MessageAUTOINC00000?templatetopic=MessageTemplate">
+               <img width='24' height='24' src='%PUBURLPATH%/Portal/WebPreferences/add.png' border='0' />
+</a> 
+<a href='%SCRIPTURL{view}%/%WEB%/PortalMessagesArchiv' title='Archiv'>
+               <img width='24' height='24' src='%PUBURLPATH%/Portal/WebPreferences/archive.png' border='0' />
+</a></span></div>
+<div class="widgetBlockContent">
+<table class='Modac_Standard_leer PortalAenderungen'><tbody>
+<tr><td>[[Portal.WebHome][Q.Wiki-Schulung in Aachen]]</td><td>-- 14.02.2014</td><td>von Bartosch Haratyk</td></tr>
+<tr><td>[[Portal.WebHome][Gemeinsamer Innovationstag]]</td><td>-- 18.03.2014</td><td>von Bartosch Haratyk</td></tr>
+<tr><td>[[Portal.WebHome][Beginn der Control]]</td><td>-- 06.05.2014</td><td>von Bartosch Haratyk</td></tr>
+</tbody></table>
+</div>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+@

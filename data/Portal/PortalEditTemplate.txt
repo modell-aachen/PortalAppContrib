@@ -1,0 +1,45 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1395392549" format="1.1" version="1"}%
+%TMPL:INCLUDE{edit}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%TMPL:P{"formstart"}%%TMPL:P{"formtop"}%
+
+<div class="widgetBlockTitle" style="text-align: center;">
+Welcome to Q.Wiki
+</div>
+<div class="widgetBlockContent" style="text-align: center;">
+%INCLUDE{"PortalHeader"}%
+</div>
+
+<div id="PortalLeft" style="float: left; width: 48%;">
+<div class="widgetBlockTitle">%MAKETEXT{"First Left Column"}%</div>
+<div class="widgetBlockContent">
+%MAKETEXT{"Please choose a widget: "}% %RENDERFOREDIT{field="PortalLeftFirst" format="$edit"}%
+</div>
+<div class="widgetBlockTitle">%MAKETEXT{"Second Left Column"}%</div>
+<div class="widgetBlockContent">
+%MAKETEXT{"Please choose a widget: "}% %RENDERFOREDIT{field="PortalLeftSecond" format="$edit"}%
+</div>
+</div>
+
+<div id="PortalRight" style="float: right; width: 48%;">
+<div class="widgetBlockTitle">%MAKETEXT{"First Right Column"}%</div>
+<div class="widgetBlockContent">
+%MAKETEXT{"Please choose a widget: "}% %RENDERFOREDIT{field="PortalRightFirst" format="$edit"}%
+</div>
+<div class="widgetBlockTitle">%MAKETEXT{"Second Right Column"}%</div>
+<div class="widgetBlockContent">
+%MAKETEXT{"Please choose a widget: "}%%RENDERFOREDIT{field="PortalRightSecond" format="$edit"}%
+</div>
+</div>
+
+
+%TMPL:P{"topicinfo"}%
+%TMPL:P{"formend"}%
+
+%TMPL:END%
+
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

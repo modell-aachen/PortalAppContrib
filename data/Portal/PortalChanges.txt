@@ -1,0 +1,17 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1395393765" format="1.1" reprev="1" version="1"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Recent Changes"}%</div>
+<div class="widgetBlockContent">
+%SOLRSEARCH{
+"type: topic -topic:Web*"
+web="Processes"
+header="<table class='Modac_Standard_leer PortalAenderungen'><tbody>"
+format="<tr><td>[[$webtopic]]</td><td>-- $date</td><td>by $author</td></tr>"
+footer="</tbody></table>"
+sort="date desc"
+rows="5"
+}%
+</div>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
