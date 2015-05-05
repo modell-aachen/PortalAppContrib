@@ -55,4 +55,7 @@ Users or groups allowed to change or rename this <nop>%TOPIC% topic: (e.g., [[%U
 
 ---
 %INCLUDE{"%SYSTEMWEB%.WebPreferencesHelp"}%
+
+%META:FILEATTACHMENT{name="add.png" attachment="add.png" attr="" comment="" date="1395393672" path="add.png" size="610" user="BaseUserMapping_333" version="1"}%
+%META:FILEATTACHMENT{name="archive.png" attachment="archive.png" attr="" comment="" date="1395393682" path="archive.png" size="542" user="BaseUserMapping_333" version="1"}%
 %META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Local" value="1"}%

@@ -25,4 +25,6 @@ data/_apps/Portal/WebRss.txt 0664
 data/_apps/Portal/WebSearchAdvanced.txt 0664
 data/_apps/Portal/WebStatistics.txt 0664
 data/_apps/Portal/WebTopicList.txt 0664
+pub/_apps/Portal/WebPreferences/add.png 0644
+pub/_apps/Portal/WebPreferences/archive.png 0644
 lib/Foswiki/Contrib/PortalAppContrib.pm 0444
