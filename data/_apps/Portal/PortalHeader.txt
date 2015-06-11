@@ -2,7 +2,7 @@
 <div style="width:100%; height: auto;">
   <div style="width:auto; margin: 0 auto; font-size: 1.6em;">[[Processes.WebHome][%MAKETEXT{"Process landscape"}%]] · [[InternalProjects.WebHome][%MAKETEXT{"Internal projects"}%]] · [[KPI/WebHome][KPI]] · [[Minutes.WebHome][%MAKETEXT{"Minutes"}%]] · [[Audit.WebHome][%MAKETEXT{"Audits"}%]]</div>
   <br />
-  <div style="width: auto; margin: 0 auto;">[[Manuals.WebHome][%MAKETEXT{"New to Q.Wiki - Please follow this link!"}%]]</div>
+  <div style="width: auto; margin: 0 auto;">[[Manuals.WebHome][%MAKETEXT{"New to [_1] - Please follow this link!" args="%WIKITOOLNAME%"}%]]</div>
 </div>
 
 
