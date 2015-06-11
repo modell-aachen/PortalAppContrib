@@ -1,0 +1,105 @@
+# Hungarian translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/_apps/Portal/PortalHeader.txt
+msgid "Audits"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "Created"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "Due"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "Edit"
+msgstr ""
+
+#: data/_apps/Portal/PortalEditTemplate.txt
+msgid "First Left Column"
+msgstr ""
+
+#: data/_apps/Portal/PortalEditTemplate.txt
+msgid "First Right Column"
+msgstr ""
+
+#: data/_apps/Portal/PortalHeader.txt
+msgid "Internal projects"
+msgstr ""
+
+#: data/_apps/Portal/PortalForm.txt
+msgid "Last Changes"
+msgstr ""
+
+#: data/_apps/Portal/PortalForm.txt data/_apps/Portal/PortalMessages.txt
+msgid "Latest News"
+msgstr ""
+
+#: data/_apps/Portal/PortalHeader.txt
+msgid "Minutes"
+msgstr ""
+
+#: data/_apps/Portal/PortalForm.txt
+msgid "My Tasks"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "My tasks"
+msgstr ""
+
+#: data/_apps/Portal/PortalHeader.txt
+msgid "New to Q.Wiki - Please follow this link!"
+msgstr ""
+
+#: data/_apps/Portal/PortalDates.txt data/_apps/Portal/PortalForm.txt
+msgid "Next Dates"
+msgstr ""
+
+#: data/_apps/Portal/PortalEditTemplate.txt
+msgid "Please choose a widget: "
+msgstr ""
+
+#: data/_apps/Portal/PortalHeader.txt
+msgid "Process landscape"
+msgstr ""
+
+#: data/_apps/Portal/PortalChanges.txt
+msgid "Recent Changes"
+msgstr ""
+
+#: data/_apps/Portal/PortalEditTemplate.txt
+msgid "Second Left Column"
+msgstr ""
+
+#: data/_apps/Portal/PortalEditTemplate.txt
+msgid "Second Right Column"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "Status"
+msgstr ""
+
+#: data/_apps/Portal/PortalTasks.txt
+msgid "Task"
+msgstr ""
+
+#: data/_apps/Portal/PortalForm.txt
+msgid "none"
+msgstr ""

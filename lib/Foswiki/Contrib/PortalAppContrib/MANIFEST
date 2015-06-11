@@ -26,3 +26,9 @@ data/_apps/Portal/WebSearchAdvanced.txt 0664
 data/_apps/Portal/WebStatistics.txt 0664
 data/_apps/Portal/WebTopicList.txt 0664
 lib/Foswiki/Contrib/PortalAppContrib.pm 0444
+locale/PortalAppContrib/cs.po 0644
+locale/PortalAppContrib/de.po 0644
+locale/PortalAppContrib/fr.po 0644
+locale/PortalAppContrib/hu.po 0644
+locale/PortalAppContrib/it.po 0644
+locale/PortalAppContrib/zh-cn.po 0644
