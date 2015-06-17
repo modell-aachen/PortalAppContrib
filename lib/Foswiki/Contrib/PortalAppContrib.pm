@@ -6,16 +6,16 @@ use warnings;
 our $VERSION = '1';
 our $RELEASE = "1";
 
-our $SHORTDESCRIPTION = 'Modell Aachen Minutes WikiApp';
+our $SHORTDESCRIPTION = 'Modell Aachen Portal Application';
 
 1;
 
 __END__
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Author: AlexanderStoffers
+Author: AlexanderStoffers, Modell Aachen GmbH
 
-Copyright (C) 2008-2011 Foswiki Contributors. Foswiki Contributors
+Copyright (C) 2008-2015 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.
 NOTE: Please extend that file, not this notice.
 
