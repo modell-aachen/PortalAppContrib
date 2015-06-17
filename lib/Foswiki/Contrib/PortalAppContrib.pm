@@ -13,7 +13,7 @@ our $SHORTDESCRIPTION = 'Modell Aachen Portal Application';
 __END__
 Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 
-Author: AlexanderStoffers, Modell Aachen GmbH
+Author: Modell Aachen GmbH
 
 Copyright (C) 2008-2015 Foswiki Contributors. Foswiki Contributors
 are listed in the AUTHORS file in the root of this distribution.

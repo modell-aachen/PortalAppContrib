@@ -1,0 +1,15 @@
+%META:TOPICPARENT{name="Plugins"}%
+---+ PortalAppContrib
+
+Modell Aachen Wiki portal application.
+
+---++ Info
+
+|  Author: | Modell Aachen GmbH |
+|  Copyright: | &copy; 2008-2015, Modell Aachen GmbH |
+|  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
+|  Home: | http://www.modell-aachen.de |
+|  Support: | http://www.modell-aachen.de |
+
