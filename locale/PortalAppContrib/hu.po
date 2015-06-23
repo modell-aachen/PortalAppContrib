@@ -65,7 +65,7 @@ msgid "My tasks"
 msgstr ""
 
 #: data/_apps/Portal/PortalHeader.txt
-msgid "New to Q.Wiki - Please follow this link!"
+msgid "New to %1 - Please follow this link!"
 msgstr ""
 
 #: data/_apps/Portal/PortalDates.txt data/_apps/Portal/PortalForm.txt
@@ -98,6 +98,18 @@ msgstr ""
 
 #: data/_apps/Portal/PortalTasks.txt
 msgid "Task"
+msgstr ""
+
+#: data/_apps/Portal/WebAtom.txt data/_apps/Portal/WebRss.txt
+msgid "The %1 web of %2."
+msgstr ""
+
+#: data/_apps/Portal/WebNotify.txt
+msgid "This is a subscription service to be automatically notified by e-mail when topics change in this %1 web. This is a convenient service, so you do not have to come back and check all the time if something has changed. To subscribe, please add a bullet with your %2 in alphabetical order to this list:"
+msgstr ""
+
+#: data/_apps/Portal/PortalViewTemplate.txt
+msgid "Welcome to %1"
 msgstr ""
 
 #: data/_apps/Portal/PortalForm.txt

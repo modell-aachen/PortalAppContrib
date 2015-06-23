@@ -7,8 +7,7 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2015-06-23 14:24+0200\n"
 "Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
-"Language-Team: German <http://translate.modell-"
-"aachen.de/projects/portalappcontrib/releasenew-york/de/>\n"
+"Language-Team: German <http://translate.modell-aachen.de/projects/portalappcontrib/releasenew-york/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,6 +98,18 @@ msgstr "Status"
 #: data/_apps/Portal/PortalTasks.txt
 msgid "Task"
 msgstr "Aufgabe"
+
+#: data/_apps/Portal/WebAtom.txt data/_apps/Portal/WebRss.txt
+msgid "The %1 web of %2."
+msgstr ""
+
+#: data/_apps/Portal/WebNotify.txt
+msgid "This is a subscription service to be automatically notified by e-mail when topics change in this %1 web. This is a convenient service, so you do not have to come back and check all the time if something has changed. To subscribe, please add a bullet with your %2 in alphabetical order to this list:"
+msgstr ""
+
+#: data/_apps/Portal/PortalViewTemplate.txt
+msgid "Welcome to %1"
+msgstr ""
 
 #: data/_apps/Portal/PortalForm.txt
 msgid "none"
