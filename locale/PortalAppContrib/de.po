@@ -5,15 +5,16 @@ msgstr ""
 "Project-Id-Version: Foswiki $Id\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2013-07-03 00:09+0200\n"
-"Last-Translator: Modell Aachen <support@modell-aachen.de>\n"
-"Language-Team: Foswiki German Translation Team <none>\n"
+"PO-Revision-Date: 2015-06-23 14:24+0200\n"
+"Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
+"Language-Team: German <http://translate.modell-"
+"aachen.de/projects/portalappcontrib/releasenew-york/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.9\n"
 
 #: data/_apps/Portal/PortalHeader.txt
 msgid "Audits"
@@ -25,7 +26,7 @@ msgstr "Erstellt"
 
 #: data/_apps/Portal/PortalTasks.txt
 msgid "Due"
-msgstr "Fällig"
+msgstr "Termin"
 
 #: data/_apps/Portal/PortalTasks.txt
 msgid "Edit"
@@ -53,7 +54,7 @@ msgstr "Neueste Nachrichten"
 
 #: data/_apps/Portal/PortalHeader.txt
 msgid "Minutes"
-msgstr "Minuten"
+msgstr "Protokolle"
 
 #: data/_apps/Portal/PortalForm.txt
 msgid "My Tasks"
@@ -69,7 +70,7 @@ msgstr "Neu im %1 - Bitte folgen Sie diesem Link!"
 
 #: data/_apps/Portal/PortalDates.txt data/_apps/Portal/PortalForm.txt
 msgid "Next Dates"
-msgstr "nächste Termine"
+msgstr "Nächsten Termine"
 
 #: data/_apps/Portal/PortalEditTemplate.txt
 msgid "Please choose a widget: "
