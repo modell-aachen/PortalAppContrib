@@ -4,7 +4,7 @@
 %TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
 
 <div class="widgetBlockTitle" style="text-align: center;">
-Welcome to Q.Wiki
+%MAKETEXT{"Welcome to [_1]" args="%WIKITOOLNAME%"}%
 </div>
 <div class="widgetBlockContent" style="text-align: center;">
 %INCLUDE{"PortalHeader"}%
