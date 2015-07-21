@@ -1,4 +1,5 @@
 !noci
+data/System/PortalAppContrib.txt 0644
 data/_apps/Portal/DokumentenForm.txt 0664
 data/_apps/Portal/MessageForm.txt 0664
 data/_apps/Portal/MessageTemplate.txt 0664
