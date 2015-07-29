@@ -43,15 +43,15 @@ Remember that an empty setting is a valid setting; setting DENYWEBVIEW to nothin
 
    * Set DENYWEBVIEW = WikiGuest
    * Set ALLOWWEBVIEW =
-   * Set DENYWEBCHANGE =
-   * Set ALLOWWEBCHANGE = AdminGroup
+   * Set DENYWEBCHANGE = WikiGuest
+   * Set ALLOWWEBCHANGE =
    * Set DENYWEBRENAME =
-   * Set ALLOWWEBRENAME = AdminGroup
+   * Set ALLOWWEBRENAME = KeyUserGroup
 
 Users or groups allowed to change or rename this <nop>%TOPIC% topic: (e.g., [[%USERSWEB%.AdminGroup][AdminGroup]])
 
-   * Set ALLOWTOPICCHANGE = AdminGroup
-   * Set ALLOWTOPICRENAME = AdminGroup
+   * Set ALLOWTOPICCHANGE = KeyUserGroup
+   * Set ALLOWTOPICRENAME = KeyUserGroup
 
 ---
 %INCLUDE{"%SYSTEMWEB%.WebPreferencesHelp"}%
