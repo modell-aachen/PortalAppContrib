@@ -23,6 +23,7 @@ data/_apps/Portal/WebIndex.txt 0664
 data/_apps/Portal/WebNotify.txt 0664
 data/_apps/Portal/WebPreferences.txt 0664
 data/_apps/Portal/WebRss.txt 0664
+data/_apps/Portal/WebSearch.txt 0663
 data/_apps/Portal/WebSearchAdvanced.txt 0664
 data/_apps/Portal/WebStatistics.txt 0664
 data/_apps/Portal/WebTopicList.txt 0664
