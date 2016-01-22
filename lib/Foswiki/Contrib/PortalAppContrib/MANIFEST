@@ -36,3 +36,5 @@ locale/PortalAppContrib/it.po 0644
 locale/PortalAppContrib/zh-cn.po 0644
 pub/_apps/Portal/WebPreferences/add.png 0644
 pub/_apps/Portal/WebPreferences/archive.png 0644
+pub/_apps/Portal/WebPreferences/custom.css 0644
+pub/_apps/Portal/WebPreferences/custom.js 0644
