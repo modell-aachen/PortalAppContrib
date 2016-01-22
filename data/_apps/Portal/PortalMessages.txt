@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1395399526" format="1.1" reprev="2" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1453469599" format="1.1" reprev="2" version="12"}%
 <div class="widgetBlockTitle">%MAKETEXT{"Latest News"}%<span style="float:right; overflow: hidden;">
 <a href="/bin/edit/%WEB%/MessageAUTOINC00000?templatetopic=MessageTemplate">
                <img width='24' height='24' src='%PUBURLPATH%/Portal/WebPreferences/add.png' border='0' />
@@ -8,12 +8,30 @@
 </a></span></div>
 <div class="widgetBlockContent" style="overflow: auto; height: 540px;">
 %SOLRSEARCH{"topic: Message0*  web: %SUBST{text="%WEB%" pattern="/" format="."}% field_DocumentType_s: \"Message\""
-format="<span style='text-color: #ccc; font-size:1.4em;'>$field_Date_dt</span>&nbsp;--&nbsp;<b>$field_TopicTitle_s</b>&nbsp;by&nbsp;$author <a href='$percentSCRIPTURL{view}$percent/bin/edit/$webtopic?t=%GMTIME{"$epoch"}%'>(edit)</a><br /><br />$percentINCLUDE{$topic}$percent<br /><br /><br />"
-separator="$n---$n"
+fields="field_Date_dt, field_TopicTitle_s, author, thumbnail, webtopic, epoch, topic, web"
+format="<div class='newsItemContainer'>
+    <div class='newsItemContentContainer' $percentIF{\"'$thumbnail'!=''\" then=\"style='width:60%;'\" else=\"'\"}$percent>
+        <div class='newsItemContentHeader'>
+	    <div class='newsItemTitle'>$field_TopicTitle_s</div>
+	    <div class='newsItemCommentBox'></div>
+	    <div style='clear:both;'></div>
+        </div>
+        <div class='newsItemContentSubHeader'>$field_Date_dt | $author | <a href='$percentSCRIPTURL{view}$percent/bin/edit/$webtopic?t=%GMTIME{"$epoch"}%'>(Bearbeiten)</a></div>
+	<div class='newsItemContentText'>
+$percentINCLUDE{$topic}$percent
+</div>
+	<div class='newsItemControl'></div>
+    </div>
+$percentIF{\"'$thumbnail'!=''\" then=\"<div class='newsItemImageContainer'>$percentATTACHMENTLIST{topic=\"$topic\" format=\"<img src='$percentPUBURLPATH$percent/$web/$topic/$thumbnail' />\" limit=\"1\"}$percent</div>\"}$percent
+    <div style='clear:both;'></div>
+</div>"
 sort="field_date_dt desc"
 rows="5"
 }%
 </div>
+
+%ADDTOZONE{"head" text="<link href='%PUBURLPATH%/%BASEWEB%/WebPreferences/custom.css' type='text/css' rel='stylesheet' />"}%
+%ADDTOZONE{"script" text="<script type='text/javascript' src='%PUBURLPATH%/%BASEWEB%/WebPreferences/custom.js'></script>"}%
 
 %META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
 %META:PREFERENCE{name="ALLOWTOPICRENAME" title="ALLOWTOPICRENAME" type="Set" value="AdminGroup"}%

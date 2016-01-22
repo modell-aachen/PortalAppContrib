@@ -1,0 +1,42 @@
+.newsItemContainer {
+	border-bottom: 2px dotted #6494c9;
+    margin: 0 0 10px;
+    padding: 0 5px 10px;
+}
+.newsItemContentContainer {
+	float: left;
+}
+.newsItemImageContainer {
+	float: right;
+}
+.newsItemImageContainer img {
+	max-width: 300px;
+	border: 1px solid #000;
+}
+.newsItemTitle {
+	float: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 6px;
+    color: #6494c9;
+}
+.newsItemCommentBox {
+	float: left;
+}
+.newsItemContentSubHeader {
+	color: #89898b;
+    font-size: 11px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+.newsItemContentSubHeader a {
+	color: #6494c9 !important;
+}
+.newsItemContentText {
+
+}
+.newsItemControl {
+	color: #6494c9;
+    cursor: pointer;
+    margin-top: 20px;
+}
